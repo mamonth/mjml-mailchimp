@@ -36,7 +36,7 @@ export default class McSection extends MjSection {
   // MODIFIED from https://github.com/mjmlio/mjml/blob/master/packages/mjml-section/src/index.js
   renderSection() {
     const hasBackground = this.hasBackground()
-
+    
     return `
       <div ${this.htmlAttributes({
         class: this.isFullWidth() ? null : this.getAttribute('css-class'),
